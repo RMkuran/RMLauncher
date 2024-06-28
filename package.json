@@ -1,7 +1,7 @@
 {
   "name": "helioslauncher",
-  "version": "2.2.1",
-  "productName": "Helios Launcher",
+  "version": "1.0.0",
+  "productName": "RM Launcher",
   "description": "Modded Minecraft Launcher",
   "author": "Daniel Scalzi (https://github.com/dscalzi/)",
   "license": "UNLICENSED",
