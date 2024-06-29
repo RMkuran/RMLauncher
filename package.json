@@ -1,6 +1,6 @@
 {
   "name": "helioslauncher",
-  "version": "3.0.0",
+  "version": "1.0.0",
   "productName": "RM Launcher",
   "description": "Modded Minecraft Launcher",
   "author": "Daniel Scalzi (https://github.com/dscalzi/)",
@@ -46,6 +46,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
+    "url": "git+https://github.com/RMkuran/RMLauncher.git"
   }
 }
