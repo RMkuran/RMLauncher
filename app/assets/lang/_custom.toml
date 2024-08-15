@@ -11,8 +11,8 @@ mediaYouTubeURL = "https://www.youtube.com/@RMkuran"
 mediaDiscordURL = "https://discord.gg/bWkX8bwb3z"
 
 [ejs.settings]
-sourceGithubLink = "https://github.com/dscalZi/HeliosLauncher"
-supportLink = "https://github.com/dscalZi/HeliosLauncher/issues"
+sourceGithubLink = "https://github.com/RMkuran/RMLauncher"
+supportLink = "https://github.com/RMkuran/RMLauncher/issues"
 
 [ejs.welcome]
 welcomeHeader = "WELCOME TO WESTEROSCRAFT"
