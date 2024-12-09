@@ -1,13 +1,13 @@
 {
-  "name": "helioslauncher",
-  "version": "1.0.2",
-  "productName": "RM Launcher",
+  "name": "rmlauncher",
+  "version": "1.0.3",
+  "productName": "RMLauncher",
   "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
+  "author": "RMkuran (https://github.com/RMkuran/)",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/dscalzi/HeliosLauncher",
+  "homepage": "https://github.com/RMkuran/RMLauncher",
   "bugs": {
-    "url": "https://github.com/dscalzi/HeliosLauncher/issues"
+    "url": "https://github.com/RMkuran/RMLauncher/issues"
   },
   "private": true,
   "main": "index.js",

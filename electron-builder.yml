@@ -1,5 +1,5 @@
-appId: 'helioslauncher'
-productName: 'RM Launcher'
+appId: 'rmlauncher'
+productName: 'RMLauncher'
 artifactName: '${productName}-setup-${version}.${ext}'
 
 copyright: 'Copyright © 2018-2024 Daniel Scalzi'
