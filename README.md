@@ -8,11 +8,11 @@
 
 <p align="center">Join modded servers without worrying about installing Java, Forge, or other mods. We'll handle that for you.</p>
 
-![Screenshot](https://i.imgur.com/CgsVWAv.png)
+![Screenshot](https://i.imgur.com/cJPPbMC.png)
 
 | Platform | File |
 | -------- | ---- |
-| Windows x64 | `RM-Launcher-setup-VERSION.exe` |
+| Windows x64 | `RMLauncher-setup-VERSION.exe` |
 | macOS with Intel CPU | `サポート対象外` |
 | macOS with AppleSilicon CPU | `サポート対象外` |
 | Linux x64 | `サポート対象外` |
