@@ -1,38 +1,72 @@
 name: Build
 
-on: push
+on:
+  push:
+    tags:
+      - 'v*'
 
 jobs:
   release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Get latest release version tag number
+        id: get_version
+        uses: battila7/get-version-action@v2
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.get_version.outputs.version }}
+          release_name: Release ${{ steps.get_version.outputs.version }}
+          draft: true
+          prerelease: false
+
+
+  build:
     runs-on: ${{ matrix.os }}
 
-    permissions:
-      contents: write
+    needs:
+      - release
 
     strategy:
       matrix:
-        os: [macos-latest, ubuntu-latest, windows-latest]
+        os: [windows-latest]
 
     steps:
-      - name: Check out Git repository
-        uses: actions/checkout@v3
+      - name: Context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT"
 
-      - name: Set up Node
-        uses: actions/setup-node@v3
+      - uses: actions/checkout@v2
         with:
-          node-version: 20
+          fetch-depth: 1
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Use Node.js 20.18.1
+        uses: actions/setup-node@v1
         with:
-          python-version: 3.x
+          node-version: '20.18.1'
 
-      - name: Install Dependencies
-        run: npm ci
-        shell: bash
+      - name: Get latest release version tag number
+        id: get_version
+        uses: battila7/get-version-action@v2
 
-      - name: Build
+      - name: NPM install
+        run: npm install
+
+      - name: NPM Dist Windows
+        if: matrix.os == 'windows-latest'
+        run: npm run dist:win
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npm run dist
-        shell: bash
+
+      - uses: actions/upload-artifact@v4
+        name: Action-Upload-Windows1
+        if: matrix.os == 'windows-latest'
+        with:
+          name: Windows Release
+          path: dist
