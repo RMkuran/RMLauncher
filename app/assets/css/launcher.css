@@ -68,6 +68,7 @@ body, button {
     -webkit-user-select: none;
 }
 
+
 /* Undraggable region on the top of the frame. */
 #frameResizableTop {
     height: 2px;
@@ -2817,13 +2818,13 @@ input:checked + .toggleSwitchSlider:before {
     transition-delay:0s;
 }
 
-/* Twitter icon colors. */
-#twitterSVG:hover,
-#twitterURL:focus #twitterSVG {
-    fill: #1da1f2;
+/* X icon colors. */
+#xSVG:hover,
+#xURL:focus #xSVG {
+    fill: #000000;
 }
-#twitterSVG:active {
-    fill: #1b8dd4;
+#xSVG:active {
+    fill: #090909;
 }
 
 /* Instagram icon colors. */
@@ -2909,6 +2910,7 @@ input:checked + .toggleSwitchSlider:before {
     color: #848484;
     margin-left: 15px;
     font-family: 'sans-serif';
+    transform: translateY(-3px);
 }
 
 /* Tooltip which displays more details about the mojang statuses. */
@@ -3308,6 +3310,7 @@ input:checked + .toggleSwitchSlider:before {
     cursor: pointer;
     position: relative;
     background: rgba(131, 131, 131, 0.25);
+    border-radius: 3px;
 }
 .serverListing[selected] {
     cursor: default;
@@ -3368,9 +3371,10 @@ input:checked + .toggleSwitchSlider:before {
 /* Server listing image. */
 .serverListingImg {
     margin: 0px 10px 0px 5px;
-    border: 1px solid #fff;
+    /*border: 1px solid #fff;*/
     height: 50px;
     width: 50px;
+    border-radius: 2px;
 }
 
 /* Content container for the server listing's details. */

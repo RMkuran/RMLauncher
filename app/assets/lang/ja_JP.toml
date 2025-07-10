@@ -1,0 +1,237 @@
+[ejs.landing]
+updateAvailableTooltip = "アップデートが利用可能です"
+usernamePlaceholder = "ユーザー名"
+usernameEditButton = "編集"
+settingsTooltip = "設定"
+newsButton = "ニュース"
+launchButtonPlaceholder = "&#8226; プロファイルが選択されていません"
+launchDetails = "お待ちください.."
+
+[ejs.loginOptions]
+loginOptionsTitle = "ログイン"
+loginWithMicrosoft = "Microsoftでログイン"
+cancelButton = "キャンセル"
+
+[ejs.overlay]
+serverSelectHeader = "利用可能なプロファイル"
+serverSelectConfirm = "選択"
+serverSelectCancel = "キャンセル"
+accountSelectHeader = "アカウントを選択"
+accountSelectConfirm = "選択"
+accountSelectCancel = "キャンセル"
+
+[ejs.settings]
+navHeaderText = "設定"
+navAccount = "アカウント"
+navMods = "Mod"
+navLauncher = "ランチャー"
+navUpdates = "アップデート"
+navDone = "完了"
+tabAccountHeaderText = "アカウント設定"
+tabAccountHeaderDesc = "新しいアカウントを追加したり、既存のアカウントを管理したりできます"
+addMicrosoftAccount = "+ Microsoft アカウントを追加"
+minecraftTabHeaderText = "Minecraft 設定"
+minecraftTabHeaderDesc = "ゲーム起動に関するオプション"
+gameResolutionTitle = "ゲーム解像度"
+launchFullscreenTitle = "フルスクリーンで起動する"
+autoConnectTitle = "起動時に自動的にサーバーに接続する"
+launchDetachedTitle = "ランチャーから切り離してゲームプロセスを起動する"
+launchDetachedDesc = "ゲームが切り離されていない場合、ランチャーを閉じるとゲームも終了します。"
+tabModsHeaderText = "Mod 設定"
+tabModsHeaderDesc = "Modを有効または無効にする"
+switchServerButton = "切り替え"
+requiredMods = "必須 Mod"
+optionalMods = "オプション Mod"
+dropinMods = "追加 Mod"
+addMods = "+ Mod を追加"
+dropinRefreshNote = "(F5で更新)"
+shaderpacks = "シェーダーパック"
+shaderpackDesc = "ここでカスタムパックを追加することができます。"
+selectShaderpack = "シェーダーパックを選択"
+tabJavaHeaderText = "Java 設定"
+tabJavaHeaderDesc = "Javaコンフィギュレーションを管理する (上級者向け)"
+memoryTitle = "メモリ"
+maxRAM = "最大メモリ"
+minRAM = "最小メモリ"
+memoryDesc = "推奨される最小メモリは 4 GBです。最小値と最大値を同じ値に設定すると、ラグが減少する場合があります。"
+memoryTotalTitle = "合計"
+memoryAvailableTitle = "利用可能"
+javaExecutableTitle = "Java 実行ファイル"
+javaExecSelDialogTitle = "Java 実行ファイルの選択"
+javaExecSelButtonText = "ファイルを選択"
+javaExecDesc = "Java実行ファイルは、ゲーム起動前に検証されます。"
+javaPathDesc = "パスは <strong>{pathSuffix}</strong> で終わる必要があります。"
+jvmOptsTitle = "追加のJVM引数"
+jvmOptsDesc = "実行時にJVMに提供されるオプション。<em>-Xms</em> および <em>-Xmx</em> は含めないでください。"
+launcherTabHeaderText = "ランチャー設定"
+launcherTabHeaderDesc = "ランチャー本体に関するオプション"
+allowPrereleaseTitle = "プレリリースのアップデートを許可する"
+allowPrereleaseDesc = "プレリリースには、まだ完全にテストまたは統合されていない新機能が含まれています。<br>プレリリース バージョンを使用している場合は、常に有効になります。"
+dataDirectoryTitle = "データディレクトリ"
+selectDataDirectory = "データディレクトリを選択"
+chooseFolder = "フォルダを選択"
+dataDirectoryDesc = "すべてのゲームデータとJavaランタイムが保存されます。<br>スクリーンショットとワールドデータは、対応するプロファイルのフォルダに保存されます。"
+aboutTabHeaderDesc = "現在のバージョンの情報とリリースノートを表示します"
+stableRelease = "安定版リリース"
+versionText = "バージョン "
+sourceGithub = "ソース（GitHub）"
+support = "サポート"
+devToolsConsole = "DevTools コンソール"
+releaseNotes = "リリースノート"
+changelog = "変更履歴"
+noReleaseNotes = "リリースノートはありません"
+viewReleaseNotes = "GitHub でリリースノートを表示"
+launcherUpdatesHeaderText = "ランチャーアップデート"
+launcherUpdatesHeaderDesc = "ランチャーのアップデートを確認します<br>アップデートがある場合、ここからインストールが可能です"
+checkForUpdates = "アップデートを確認"
+whatsNew = "新機能"
+updateReleaseNotes = "アップデートのリリースノート"
+
+[ejs.waiting]
+waitingText = "Microsoft の応答を待っています.."
+
+[ejs.welcome]
+continueButton = "次へ"
+
+
+[js.login]
+login = "ログイン"
+loggingIn = "ログイン中"
+success = "成功"
+tryAgain = "再試行"
+
+[js.login.error]
+invalidValue = "* 無効な値"
+requiredValue = "* 必須項目"
+
+[js.login.error.unknown]
+title = "ログイン中に不明なエラーが発生"
+desc = "不明なエラーが発生しました。詳細はコンソールを参照してください。"
+
+[js.landing.launch]
+pleaseWait = "お待ちください.."
+failureTitle = "起動中のエラー"
+failureText = "詳細はコンソール（CTRL + Shift + i）を参照してください。"
+okay = "OK"
+
+[js.landing.selectedAccount]
+noAccountSelected = "アカウントが選択されていません"
+
+[js.landing.selectedServer]
+noSelection = "プロファイルが選択されていません"
+loading = "読み込み中.."
+
+[js.landing.systemScan]
+checking = "システム情報を確認中.."
+noCompatibleJava = "互換性のある<br>Javaインストールが見つかりません"
+installJavaMessage = "Minecraftを起動するには、Java {major} の64ビットインストールが必要です。Javaをインストールしますか？"
+installJava = "Javaをインストール"
+installJavaManually = "手動でインストール"
+javaDownloadPrepare = "Javaのダウンロードを準備中.."
+javaDownloadFailureTitle = "Javaのダウンロード中にエラーが発生しました"
+javaDownloadFailureText = "詳細はコンソール（CTRL + Shift + i）を参照してください。"
+javaRequired = "起動にはJava {major}が必要です"
+javaRequiredMessage = '起動には有効なx64バージョンのJava {major} インストールが必要です。'
+javaRequiredDismiss = "OK"
+javaRequiredCancel = "戻る"
+
+[js.landing.downloadJava]
+findJdkFailure = "OpenJDKディストリビューションの検索に失敗しました。"
+javaDownloadCorruptedError = "ダウンロードしたJDKに不正なハッシュがあり、ファイルが破損している可能性があります。"
+extractingJava = "Javaを展開中"
+javaInstalled = "Javaがインストールされました!"
+
+[js.landing.dlAsync]
+loadingServerInfo = "サーバー情報を読み込み中.."
+fatalError = "致命的なエラー"
+unableToLoadDistributionIndex = "ディストリビューションインデックスを読み込めませんでした。詳細はコンソール（CTRL + Shift + i）を参照してください。"
+pleaseWait = "お待ちください.."
+errorDuringLaunchTitle = "起動中のエラー"
+seeConsoleForDetails = "詳細はコンソール（CTRL + Shift + i）を参照してください。"
+validatingFileIntegrity = "ファイル整合性を検証中.."
+errorDuringFileVerificationTitle = "ファイル検証中のエラー"
+downloadingFiles = "ファイルをダウンロード中.."
+errorDuringFileDownloadTitle = "ファイルダウンロード中のエラー"
+preparingToLaunch = "起動の準備中.."
+launchingGame = "ゲームを起動中.."
+launchWrapperNotDownloaded = "メインファイルのLaunchWrapperが正しくダウンロードできませんでした。<br><br>この問題を解決するには、ウイルス対策ソフトを一時的にオフにして、再度ゲームを起動してください。"
+doneEnjoyServer = "完了。"
+checkConsoleForDetails = "詳細はコンソール（CTRL + Shift + i）をご確認ください。"
+
+[js.settings.fileSelectors]
+executables = "実行ファイル"
+allFiles = "すべてのファイル"
+
+[js.settings.mstfLogin]
+errorMessage = "Microsoftの認証に失敗しました。もう一度お試しください。"
+
+[js.settings.mstfLogout]
+errorMessage = "Microsoftのログアウトに失敗しました。もう一度お試しください。"
+
+[js.settings.authAccountSelect]
+selectButton = "アカウントを選択"
+selectedButton = "選択中のアカウント &#10004;"
+
+[js.settings.authAccountLogout]
+lastAccountWarningTitle = "注意<br>これはログインしている最後のアカウントです"
+lastAccountWarningMessage = "ランチャーを使用するには、少なくとも1つのアカウントにログインしている必要があります。<br><br>本当にログアウトしますか？"
+confirmButton = "はい"
+cancelButton = "キャンセル"
+
+[js.settings.authAccountPopulate]
+username = "ユーザー名"
+selectAccount = "アカウントを選択"
+selectedAccount = "選択したアカウント ✓"
+logout = "ログアウト"
+
+[js.settings.dropinMods]
+removeButton = "削除"
+deleteFailedTitle = "追加 Mod {fullName} の削除に失敗しました"
+deleteFailedMessage = "ファイルが使用中でないことを確認し、もう一度お試しください。"
+failedToggleTitle = "1つ以上の追加Modの切り替えに失敗しました"
+okButton = "OK"
+
+[js.settings.serverListing]
+mainServer = "メインプロファイル"
+
+[js.settings.java]
+selectedJava = "選択済み: Java {version} ({vendor})"
+invalidSelection = "無効な選択"
+requiresJava = "64ビット版Java {major} が必要です。"
+availableOptions = "Java {major} (HotSpot VM) の利用可能なオプション"
+
+[js.settings.about]
+preReleaseTitle = "プレリリース"
+stableReleaseTitle = "安定版リリース"
+releaseNotesFailed = "リリースノートの読み込みに失敗しました。"
+
+[js.settings.updates]
+newReleaseTitle = "新しいバージョンが利用可能です"
+newPreReleaseTitle = "新しいプレリリースが利用可能です"
+downloadingButton = "ダウンロード中.."
+downloadButton = 'GitHubからダウンロード<span style="font-size: 10px;color: gray;text-shadow: none !important;">ランチャーを閉じてdmgを実行してアップデートします。</span>'
+latestVersionTitle = "最新バージョンを使用中です"
+checkForUpdatesButton = "アップデートを確認"
+checkingForUpdatesButton = "アップデートを確認中.."
+
+[js.settings.msftLogin]
+errorTitle = "Microsoftのログインに失敗しました"
+errorMessage = "お客様のMicrosoftアカウントを認証できませんでした。もう一度お試しください。"
+okButton = "OK"
+
+[js.uibinder.startup]
+fatalErrorTitle = "致命的なエラー： ディストリビューション・インデックスをロードできません"
+fatalErrorMessage = "配信インデックスをダウンロードするためのサーバーへの接続が確立できませんでした。読み込み可能なローカルコピーはありませんでした。<br><br>ディストリビューションインデックスは、最新のサーバー情報を提供する重要なファイルです。これがないとランチャーを起動することができません。インターネットに接続されていることを確認し、アプリケーションを再起動してください。"
+closeButton = "閉じる"
+
+[js.uibinder.validateAccount]
+failedMessageTitle = "ログインの更新に失敗しました"
+failedMessage = "<strong>{account}</strong> のログインを更新できませんでした。別のアカウントを選択するか、再度ログインしてください。"
+failedMessageSelectAnotherAccount = "<strong>{account}</strong> のログインを更新できませんでした。再度ログインしてください。"
+loginButton = "ログイン"
+selectAnotherAccountButton = "別のアカウントを選択"
+
+[js.uicore.autoUpdate]
+checkingForUpdateButton = "アップデートをチェック中.."
+installNowButton = "今すぐインストール"
+checkForUpdatesButton = "アップデートを確認"

@@ -1,11 +1,11 @@
 # Custom Language File for Launcher Customizer
 
 [ejs.app]
-title = "RMLauncher"
+title = "RM Launcher"
 
 [ejs.landing]
 mediaWebsiteURL = "https://rmkuran.pages.dev"
-mediaTwitterURL = "https://x.com/RMkuran"
+mediaXURL = "https://x.com/RMkuran"
 mediaInstagramURL = "https://www.instagram.com/shouta.12.12"
 mediaYouTubeURL = "https://www.youtube.com/@RMkuran"
 mediaDiscordURL = "https://discord.gg/8R3qKeHND2"
