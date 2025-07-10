@@ -2,7 +2,7 @@ appId: 'rmlauncher'
 productName: 'RMLauncher'
 artifactName: '${productName}-setup-${version}.${ext}'
 
-copyright: 'Copyright © 2018-2024 Daniel Scalzi'
+copyright: 'Copyright © 2018-2024 Daniel Scalzi, 2025 RMkuran'
 
 asar: true
 compression: 'maximum'
