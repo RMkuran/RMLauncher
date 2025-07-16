@@ -3,7 +3,6 @@ updateAvailableTooltip = "アップデートが利用可能です"
 usernamePlaceholder = "ユーザー名"
 usernameEditButton = "編集"
 settingsTooltip = "設定"
-newsButton = "ニュース"
 launchButtonPlaceholder = "&#8226; プロファイルが選択されていません"
 launchDetails = "お待ちください.."
 
@@ -94,6 +93,9 @@ waitingText = "Microsoft の応答を待っています.."
 continueButton = "次へ"
 
 
+[js.discord]
+state = "サーバー: {shortId}"
+
 [js.login]
 login = "ログイン"
 loggingIn = "ログイン中"
@@ -157,6 +159,9 @@ launchingGame = "ゲームを起動中.."
 launchWrapperNotDownloaded = "メインファイルのLaunchWrapperが正しくダウンロードできませんでした。<br><br>この問題を解決するには、ウイルス対策ソフトを一時的にオフにして、再度ゲームを起動してください。"
 doneEnjoyServer = "完了。"
 checkConsoleForDetails = "詳細はコンソール（CTRL + Shift + i）をご確認ください。"
+
+[js.landing.discord]
+xId = "@RMkuran"
 
 [js.settings.fileSelectors]
 executables = "実行ファイル"

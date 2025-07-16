@@ -18,3 +18,6 @@ supportLink = "https://github.com/RMkuran/RMLauncher/issues"
 welcomeHeader = "WELCOME TO RMLAUNCHER"
 welcomeDescription = "RMによるRMのためのMinecraftランチャーです。"
 welcomeDescCTA = "数クリックでゲームを開始できます。"
+
+[js.landing.discord]
+xId = "@RMkuran"

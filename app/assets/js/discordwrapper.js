@@ -10,11 +10,11 @@ const Lang = require('./langloader')
 let client
 let activity
 
-exports.initRPC = function(genSettings, servSettings, initialDetails = Lang.queryJS('discord.waiting')){
+exports.initRPC = function(genSettings, servSettings){
     client = new Client({ transport: 'ipc' })
 
     activity = {
-        details: initialDetails,
+        details: Lang.queryJS('landing.discord.xId'),
         state: Lang.queryJS('discord.state', {shortId: servSettings.shortId}),
         largeImageKey: servSettings.largeImageKey,
         largeImageText: servSettings.largeImageText,
