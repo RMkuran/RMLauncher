@@ -8,18 +8,23 @@
  ******************************************************************************/
 
 @font-face {
-    font-family: 'Avenir Book';
-    src: url('../fonts/Avenir-Book.ttf');
+    font-family: 'Geist Light';
+    src: url('../fonts/Geist-Light.ttf');
 }
 
 @font-face {
-    font-family: 'Avenir Medium';
-    src: url('../fonts/Avenir-Medium.ttf');
+    font-family: 'Geist Medium';
+    src: url('../fonts/Geist-Medium.ttf');
 }
 
 @font-face {
-    font-family: 'Ringbearer';
-    src: url('../fonts/Ringbearer.ttf');
+    font-family: 'Noto Sans Regular';
+    src: url('../fonts/NotoSansJP-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Noto Sans SemiBold';
+    src: url('../fonts/NotoSansJP-SemiBold.ttf');
 }
 
 /*******************************************************************************
@@ -42,7 +47,7 @@ p {
 
 /* Set default font and color. */
 body, button {
-    font-family: 'Avenir Book';
+    font-family: 'Geist Light','Noto Sans Regular';
     color: white;
 }
 
@@ -111,7 +116,7 @@ body, button {
 }
 #frameTitleText {
     font-size: 14px;
-    font-family: 'Avenir Medium';
+    font-family: 'Geist Medium';
     letter-spacing: 0.5px;
 }
 
@@ -285,7 +290,7 @@ body, button {
 }
 
 #welcomeHeader {
-    font-family: 'Avenir Medium';
+    font-family: 'Geist Medium';
     text-align: center;
     color: white;
     margin-bottom: 25px;
@@ -498,7 +503,7 @@ body, button {
 
 /* Header on login view. */
 #loginSubheader {
-    font-family: 'Avenir Medium';
+    font-family: 'Geist Medium';
     margin-bottom: 25px;
     font-size: 12px;
     letter-spacing: 1px;
@@ -523,7 +528,7 @@ body, button {
 
 /* Span which displays errors related to login field content. */
 .loginErrorSpan {
-    font-family: 'Avenir Medium';
+    font-family: 'Geist Medium';
     font-weight: bold;
     font-size: 8px;
     color: #ff1b0c;
@@ -559,7 +564,7 @@ body, button {
 
 /* Login text input styles. */
 .loginField {
-    font-family: 'Avenir Book';
+    font-family: 'Geist Light';
     background: none;
     border-width: 1.5px 0px 0px 0px;
     border-style: solid;
@@ -1223,7 +1228,7 @@ body, button {
 }
 .settingsTabHeaderText {
     font-size: 20px;
-    font-family: 'Avenir Medium';
+    font-family: 'Geist Medium';
 }
 .settingsTabHeaderDesc {
     font-size: 12px;
@@ -1262,7 +1267,7 @@ body, button {
     background: none;
     font-size: 12px;
     border-radius: 3px;
-    font-family: 'Avenir Medium';
+    font-family: 'Geist Medium';
     transition: 0.25s ease;
     cursor: pointer;
     outline: none;
@@ -1294,7 +1299,7 @@ body, button {
     background: rgba(0, 0, 0, 0.25);
     border-radius: 3px;
     border: 1px solid rgba(126, 126, 126, 0.57);
-    font-family: 'Avenir Book';
+    font-family: 'Geist Light';
     transition: 0.25s ease;
 }
 #settingsContainer input[type=number]:focus,
@@ -1323,7 +1328,7 @@ body, button {
 }
 .settingsFieldTitle {
     font-size: 14px;
-    font-family: 'Avenir Medium';
+    font-family: 'Geist Medium';
     color: rgba(255, 255, 255, 0.95);
 }
 .settingsFieldDesc {
@@ -1486,7 +1491,7 @@ input:checked + .toggleSwitchSlider:before {
     width: 89%;
 }
 .settingsFileSelDesc strong {
-    font-family: 'Avenir Medium';
+    font-family: 'Geist Medium';
 }
 
 /* * *
@@ -1594,7 +1599,7 @@ input:checked + .toggleSwitchSlider:before {
     font-size: 12px;
     color: grey;
     font-weight: bold;
-    font-family: 'Avenir Medium';
+    font-family: 'Geist Medium';
 }
 .settingsAuthAccountDetailValue {
     font-size: 14px;
@@ -1616,7 +1621,7 @@ input:checked + .toggleSwitchSlider:before {
     border: none;
     white-space: nowrap;
     background: none;
-    font-family: 'Avenir Medium';
+    font-family: 'Geist Medium';
     outline: none;
     transition: 0.25s ease;
 }
@@ -1641,7 +1646,7 @@ input:checked + .toggleSwitchSlider:before {
     background: none;
     font-size: 12px;
     border-radius: 3px;
-    font-family: 'Avenir Medium';
+    font-family: 'Geist Medium';
     transition: 0.25s ease;
     cursor: pointer;
     outline: none;
@@ -2196,7 +2201,7 @@ input:checked + .toggleSwitchSlider:before {
 /* Release type text. */
 #settingsAboutCurrentVersionTitle {
     font-size: 12px;
-    font-family: 'Avenir Medium';
+    font-family: 'Geist Medium';
     color: #23aa23;
     font-weight: bold;
 }
@@ -2285,7 +2290,7 @@ input:checked + .toggleSwitchSlider:before {
     background-color: rgba(255, 255, 255, 0.25);
     color: white;
     border-radius: 3px;
-    font-family: 'Avenir Book';
+    font-family: 'Geist Light';
 }
 .settingsChangelogText li+li {
     margin-top: .25em;
@@ -2395,7 +2400,7 @@ input:checked + .toggleSwitchSlider:before {
 /* Release type text. */
 #settingsUpdateVersionTitle {
     font-size: 12px;
-    font-family: 'Avenir Medium';
+    font-family: 'Geist Medium';
     color: #23aa23;
     font-weight: bold;
 }
@@ -2592,7 +2597,7 @@ input:checked + .toggleSwitchSlider:before {
     z-index: 1;
     top: 115%;
     left: -17.5px;
-    font-family: 'Avenir Medium';
+    font-family: 'Geist Medium';
     font-size: 12px;
     transition: visibility 0s linear 0.25s, opacity 0.25s ease;
 }
@@ -2925,7 +2930,7 @@ input:checked + .toggleSwitchSlider:before {
     border-radius: 4px;
     padding: 5px 10px;
     z-index: 1;
-    font-family: 'Avenir Medium';
+    font-family: 'Geist Medium';
     font-size: 12px;
     transition: visibility 0s linear 0.25s, opacity 0.25s ease;
     bottom: calc(100% + 15px);
@@ -3180,7 +3185,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Overlay title styles. */
 #overlayTitle {
-    font-family: 'Avenir Medium';
+    font-family: 'Geist Medium';
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -3206,7 +3211,7 @@ input:checked + .toggleSwitchSlider:before {
     background: none;
     border: 1px solid #ffffff;
     color: white;
-    font-family: 'Avenir Medium';
+    font-family: 'Geist Medium';
     font-weight: bold;
     border-radius: 2px;
     padding: 0px 8.1px;
@@ -3258,9 +3263,8 @@ input:checked + .toggleSwitchSlider:before {
 /* Server selection header. */
 #serverSelectHeader,
 #accountSelectHeader {
-    font-family: 'Avenir Medium';
+    font-family: 'Geist Medium','Noto Sans SemiBold';
     font-size: 20px;
-    font-weight: bold;
     color: #fff;
     margin-bottom: 25px;
 }
@@ -3389,14 +3393,13 @@ input:checked + .toggleSwitchSlider:before {
 /* The name of the server listing. */
 .serverListingName {
     font-size: 14px;
-    font-weight: bold;
+    font-family: 'Geist Medium','Noto Sans SemiBold';
 }
 
 /* Description for the server listing. */
 .serverListingDescription {
     font-size: 10px;
     line-height: 10px;
-    font-weight: bold;
     text-align: left;
 }
 
@@ -3483,8 +3486,7 @@ input:checked + .toggleSwitchSlider:before {
     background: none;
     border: 1px solid #ffffff;
     color: white;
-    font-family: 'Avenir Medium';
-    font-weight: bold;
+    font-family: 'Geist Medium','Noto Sans SemiBold';
     border-radius: 2px;
     padding: 0px 8.1px;
     cursor: pointer;
@@ -3507,7 +3509,7 @@ input:checked + .toggleSwitchSlider:before {
 /* Server selection cancel button styles. */
 #serverSelectCancel,
 #accountSelectCancel {
-    font-weight: bold;
+    font-family: 'Geist Medium','Noto Sans SemiBold';
     font-size: 10px;
     text-decoration: none;
     padding-top: 2.5px;
