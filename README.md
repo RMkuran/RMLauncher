@@ -5,7 +5,7 @@
 <em><h5 align="center">(formerly Electron Launcher)</h5></em>
 
 <p align="center">
-  <a href="https://github.com/TeamKun/NumaLauncher/releases">
+  <a href="https://github.com/RMkuran/RMLauncher/releases">
     <img src="https://img.shields.io/github/downloads/RMkuran/RMLauncher/total.svg?style=for-the-badge" alt="downloads">
   </a>
 </p>
