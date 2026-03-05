@@ -2,13 +2,13 @@ appId: 'rmlauncher'
 productName: 'RMLauncher'
 artifactName: '${productName}-setup-${version}.${ext}'
 
-copyright: 'Copyright © 2018-2024 Daniel Scalzi, 2025 RMkuran'
+copyright: 'Copyright © 2018-2026 Daniel Scalzi, 2024-2026 RMkuran'
 
 asar: true
 compression: 'maximum'
 
 files:
-  - '!{dist,.gitignore,.vscode,docs,dev-app-update.yml,.nvmrc,.eslintrc.json}'
+  - '!{dist,.gitignore,.vscode,docs,dev-app-update.yml,.nvmrc,eslint.config.mjs}'
 
 extraResources:
   - 'libraries'
