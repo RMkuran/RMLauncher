@@ -16,7 +16,7 @@ supportLink = "https://github.com/RMkuran/RMLauncher/issues"
 
 [ejs.welcome]
 welcomeHeader = "WELCOME TO RMLAUNCHER"
-welcomeDescription = "RMによるRMのためのMinecraftランチャーです。"
+welcomeDescription = "情弱でもModを楽しむことができるMinecraftランチャーです。"
 welcomeDescCTA = "数クリックでゲームを開始できます。"
 
 [js.landing.discord]
