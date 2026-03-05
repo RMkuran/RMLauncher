@@ -64,6 +64,6 @@ jobs:
         with:
           # アップロードしたいファイルを指定
           files: |
-            dist/**/*.exe
-            dist/**/*.blockmap
+            dist/**/RMLauncher-setup-*.exe
+            dist/**/RMLauncher-setup-*.blockmap
             dist/**/latest.yml
